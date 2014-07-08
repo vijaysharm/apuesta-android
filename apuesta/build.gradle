@@ -1,14 +1,18 @@
+
 apply plugin: 'android'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19.0.3"
+    buildToolsVersion "19.1.0"
 
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 19
         versionCode 1
         versionName "1.0"
+
+        testPackageName "com.vijaysharma.apuesta.test"
+        testInstrumentationRunner "com.google.android.apps.common.testing.testrunner.GoogleInstrumentationTestRunner"
     }
     buildTypes {
         release {
@@ -20,4 +24,23 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.android.support:support-v4:19.+'
+    compile 'com.android.support:recyclerview-v7:+'
+
+    compile 'com.mcxiaoke.volley:library:1.0.5'
+    compile 'com.google.code.gson:gson:2.2.4'
+
+    compile 'com.squareup.retrofit:retrofit:1.6.0'
+    compile 'com.squareup.retrofit:retrofit-mock:1.6.0'
+    compile 'com.squareup.dagger:dagger:1.2.1'
+    provided 'com.squareup.dagger:dagger-compiler:1.2.1'
+    compile 'com.jakewharton:butterknife:5.1.1'
+
+    compile 'com.google.guava:guava:17.0'
+
+    compile 'com.netflix.rxjava:rxjava-core:0.19.1'
+    compile 'com.netflix.rxjava:rxjava-android:0.19.1'
+
+    androidTestCompile 'com.jakewharton.espresso:espresso:+'
 }

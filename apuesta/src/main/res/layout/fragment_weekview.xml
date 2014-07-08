@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.vijaysarma.apuesta.views.AnimatedFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_green">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:visibility="invisible" />
+
+    <!--<ListView-->
+        <!--android:id="@+id/list"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:clipToPadding="false"-->
+        <!--android:divider="@android:color/transparent"-->
+        <!--android:dividerHeight="@dimen/sixteen_dp"-->
+        <!--android:drawSelectorOnTop="true"-->
+        <!--android:paddingBottom="@dimen/eight_dp"-->
+        <!--android:paddingTop="@dimen/eight_dp"-->
+        <!--android:scrollbarStyle="outsideOverlay"-->
+        <!--android:visibility="gone"-->
+        <!--tools:listitem="@layout/item_week"-->
+        <!--tools:visibility="visible" />-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:scrollbars="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="left|start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/sixteen_dp"
+        android:visibility="gone"
+        tools:listitem="@layout/item_week"
+        android:paddingBottom="@dimen/eight_dp"
+        android:paddingTop="@dimen/eight_dp" />
+
+</com.vijaysarma.apuesta.views.AnimatedFrameLayout>

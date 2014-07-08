@@ -1,8 +1,29 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionbarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorHighlight">@color/background_green_dark</item>
+        <item name="android:textSelectHandleLeft">@android:color/white</item>
+        <item name="android:textSelectHandleRight">@android:color/white</item>
+        <item name="android:textSelectHandle">@android:color/white</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ActivityTheme" parent="AppTheme">
+
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="ActionbarStyle" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="ActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/background_green_dark</item>
     </style>
 
 </resources>

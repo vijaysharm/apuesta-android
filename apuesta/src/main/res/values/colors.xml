@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_green">#2ECC71</color>
+    <color name="background_green_dark">#27AE60</color>
+    <color name="selection_blue">#64B6DE</color>
+    <color name="lose">#E4B3C3</color>
+    <color name="win">#C3E4B3</color>
+
+    <!--Arizona Cardinals:  #B10339 (red)  |  #FFC40D (gold)  |  #000000 (black)-->
+    <color name="ari_background">#B10339</color>
+    <color name="ari_forground">#FFC40D</color>
+
+    <!--Atlanta Falcons:  #000000 (black)  |  #231F20 (red)-->
+    <color name="atl_background">#000000</color>
+    <color name="atl_forground">#C60024</color>
+
+    <!--Baltimore Ravens:  #2B025B (purple)  |  #F5A329 (gold)-->
+    <color name="bal_background">#2B025B</color>
+    <color name="bal_forground">#F5A329</color>
+
+    <!--Buffalo Bills:  #00133F (dark blue)  |  #EE2F2B (red)-->
+    <color name="buf_background">#00133F</color>
+    <color name="buf_forground">#EE2F2B</color>
+
+    <!--Carolina Panthers:  #0097C6 (teal)  |  #101B24 (black)  |  #A2A7AB (silver)-->
+    <color name="car_background">#101B24</color>
+    <color name="car_forground">#0097C6</color>
+
+    <!--Chicago Bears:  #00133F (dark blue)  |  #FF652B (orange)-->
+    <color name="chi_background">#00133F</color>
+    <color name="chi_forground">#FF652B</color>
+
+    <!--Cincinnati Bengals:  #FF2700 (orange)  |  #101B24 (black)-->
+    <color name="cin_background">#FF2700</color>
+    <color name="cin_forground">#101B24</color>
+
+    <!--Cleveland Browns:  #4C230E (brown)  |  #FF652B (orange)-->
+    <color name="cle_background">#4C230E</color>
+    <color name="cle_forground">#FF652B</color>
+
+    <!--Dallas Cowboys:  #002E4D (dark blue)  |  #FFFFFF (white)-->
+    <color name="dal_background">#002E4D</color>
+    <color name="dal_forground">#FFFFFF</color>
+
+    <!--Denver Broncos:  #002E4D (dark blue)  |  #FF652B (orange)-->
+    <color name="den_background">#002E4D</color>
+    <color name="den_forground">#FF652B</color>
+
+    <!--Detroit Lions:  #006EA1 (light blue)  |  #F6F6F6 (white)  |  #EFF4F8 (black)-->
+    <color name="det_background">#006EA1</color>
+    <color name="det_forground">#F6F6F6</color>
+
+    <!--Green Bay Packers:  #294239 (green)  |  #FFBF00 (gold)-->
+    <color name="gb_background">#294239</color>
+    <color name="gb_forground">#FFBF00</color>
+
+    <!--Houston Texans:  #00133F (dark blue)  |  #D6303A (red)-->
+    <color name="hou_background">#00133F</color>
+    <color name="hou_forground">#D6303A</color>
+
+    <!--Indianapolis Colts:  #00417E (blue)  |  #FFFFFF (white)-->
+    <color name="ind_background">#00417E</color>
+    <color name="ind_forground">#FFFFFF</color>
+
+    <!--Jacksonville Jaguars:  #00839C (teal)  |  #101B24 (black)  |  #FFFFFF (white)-->
+    <color name="jac_background">#00839C</color>
+    <color name="jac_forground">#101B24</color>
+
+    <!--Kansas City Chiefs:  #C60024 (red)  |  #000000 (black)-->
+    <color name="kc_background">#000000</color>
+    <color name="kc_forground">#C60024</color>
+
+    <!--Miami Dolphins:  #006B79 (teal)  |  #FF642A (orange)-->
+    <color name="mia_background">#006B79</color>
+    <color name="mia_forground">#FF642A</color>
+
+    <!--Minnesota Vikings:  #240A67 (purple)  |  #FFAC2C (gold)-->
+    <color name="min_background">#240A67</color>
+    <color name="min_forground">#FFAC2C</color>
+
+    <!--New England Patriots:  #00295B (dark blue)  |  #EE2F2B (red)  |  #C7CACC (silver)-->
+    <color name="ne_background">#00295B</color>
+    <color name="ne_forground">#EE2F2B</color>
+
+    <!--New Orleans Saints:  #C6A876 (light gold)  |  #000B17 (black)-->
+    <color name="no_background">#C6A876</color>
+    <color name="no_forground">#000B17</color>
+
+    <!--New York Giants:  #003155 (dark blue)  |  #FFFFFF (white)-->
+    <color name="nyg_background">#003155</color>
+    <color name="nyg_forground">#FFFFFF</color>
+
+    <!--New York Jets:  #174032 (green)  |  #FFFFFF (white)-->
+    <color name="nyj_background">#174032</color>
+    <color name="nyj_forground">#FFFFFF</color>
+
+    <!--Oakland Athletics:  #000000 (black)  |  #B5BBBD (silver)  |  #FFFFFF (white)-->
+    <color name="oak_background">#000000</color>
+    <color name="oak_forground">#B5BBBD</color>
+
+    <!--Philadelphia Eagles:  #002F30 (green)  |  #EFEFEF (silver)-->
+    <color name="phi_background">#002F30</color>
+    <color name="phi_forground">#EFEFEF</color>
+
+    <!--Pittsburgh Steelers:  #000000 (black)  |  #FFBF00 (gold)-->
+    <color name="pit_background">#000000</color>
+    <color name="pit_forground">#FFBF00</color>
+
+    <!--San Diego Chargers:  #05173C (blue)  |  #0F83B8 (light blue)  |  #FFBF00 (gold)-->
+    <color name="sd_background">#05173C</color>
+    <color name="sd_forground">#0F83B8</color>
+
+    <!--San Francisco 49ers:  #940029 (red)  |  #D99E77 (light gold)-->
+    <color name="sf_background">#940029</color>
+    <color name="sf_forground">#D99E77</color>
+
+    <!--Seattle Seahawks:  #030F1F (dark blue)  |  #283E67 (light blue)-->
+    <color name="sea_background">#283E67</color>
+    <color name="sea_forground">#FFFFFF</color>
+
+    <!--St. Louis Rams:  #00295B (dark blue)  |  #C1A05B (gold)-->
+    <color name="stl_background">#00295B</color>
+    <color name="stl_forground">#C1A05B</color>
+
+    <!--Tampa Bay Buccaneers:  #665C50 (tan)  |  #D6303A (red)-->
+    <color name="tb_background">#D6303A</color>
+    <color name="tb_forground">#665C50</color>
+
+    <!--Tennessee Titans:  #002C4B (dark blue)  |  #EE2F2B (red)  |  #0080C0 (light blue)-->
+    <color name="ten_background">#002C4B</color>
+    <color name="ten_forground">#EE2F2B</color>
+
+    <!--Washington Redskins:  #8C001A (dark red)  |  #FFBF00 (gold)-->
+    <color name="was_background">#FFBF00</color>
+    <color name="was_forground">#8C001A</color>
+</resources>
