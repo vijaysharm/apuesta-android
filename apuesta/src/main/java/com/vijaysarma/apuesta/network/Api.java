@@ -24,8 +24,7 @@ public class Api {
     public static class Module {
         @Provides @Singleton @Named(value = "url")
         String url() {
-            return "http://192.168.2.16:3000";
-//            return "http://10.0.12.217:3000";
+            return "IP_ADDRESS";
         }
 
         @Provides @Singleton @Named(value = "apiKey")
